@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background-color: #4169E1;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button, footer {
+    font-family: Roboto, sans-serif;
+}
+#logo {
+    width:800px;
+    height:700px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.search
+{
+    position: relative;
+    width: 700px;
+    top: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.heroes-search
+{
+    display: block;
+    width: 100%;
+    padding: 15px 150px 18px 17px;
+    background: none;
+    border: none;
+    line-height: 17px;
+    font-size: 14px;
+    color: #9b9b9b;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+.submit-search
+{
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px 10px 0 0;
+        padding: 0;
+        border: none;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 1px solid red;
+        box-shadow: 0px 0px 15px #000;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+.icon-button{
+        background-image: url("D:\\Projetos\\MarvelSearch\\Imagens\\icon-button.png");
+}
+.icon-button{
+        display: inline-block;
+        vertical-align: middle;
+        text-indent: -9999px;
+}
+.icon-button-01{
+        background-position: -90px -900px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+}
+.header_menu{
+        display: flex;
+        -webkit-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        align-content: flex-start;
+        -webkit-box-align: start;
+        align-items: flex-start;
+        position: relative;
+        box-sizing: border-box;
+        height: 40px;
+        padding-left: 98px;
+        background-color: #232f46;
+}
