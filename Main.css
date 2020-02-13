@@ -75,7 +75,7 @@ body, input, button, footer {
     margin: 0 auto;
 }
 .icon-button{
-        background-image: url(".\\Imagens\\icon-button.png");
+        background-image: url(".\\Imagens\\icon-button30px.png");
 }
 .icon-button{
         display: inline-block;
