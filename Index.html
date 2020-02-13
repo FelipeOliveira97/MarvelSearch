@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Marvel Search</title>
-        <link href="Main.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="header_menu"></div>
-    <div class="logo-div">
-        <img src="D:\\Projetos\\MarvelSearch\\Imagens\\logo.png" id="logo"/>
+
+<head>
+    <meta charset="utf-8">
+    <title>Marvel Search</title>
+    <link href="Main.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href=".\\Imagens\\fav-icon.png" />
+</head>
+
+<body>
+    <div class="header_menu"></div>
+    <div class="logo-div element">
+        <img src=".\\Imagens\\logo.png" id="logo" />
     </div>
-    <form class="search" action="/heroes/" >
-    <input type="text" name="username" class="heroes-search" placeholder="Procure seu personagem">
-    <button type="submit" class="submit-search">   
-        <i class="icon-button icon-button-01"></i>    
-    </button>
+    <form class="search" action="/heroes/">
+        <input type="text" name="username" class="heroes-search" placeholder="Procure seu personagem">
+        <button type="submit" class="submit-search">
+            <i class="icon-button icon-button-01"></i>
+        </button>
     </form>
-    </body>
-    <div class="footer">
-       <ul class="footer_links">
-           <li class="footer_links_item">
-               <a href=""></a>
-           </li>
-           <li class="footer_links_item">
-               <a href=""></a>
-           </li>
-            </li>
-            <li class="footer_links_item">
-                <a href=""></a>
-            </li>
-       </ul>
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+    </script>
+    <script>
+        (function () {
+            window.onload = function () {
+                new BlipChat()
+                    .withAppKey('ZnJpZGF5OjZkMGM3ZTgzLTVhMzktNDA5Mi1hNzE0LTU1OGUwNWVhODkwMQ==')
+                    .withButton({ "color": "#2CC3D5", "icon": "" })
+                    .build();
+            }
+        })();
+    </script>
+</body>
+<div class="footer">
+    <ul class="footer_links">
+        <li class="footer_links_item">
+            <a href="">About Me</a>
+        </li>
+        <li class="footer_links_item">
+            <a href="felipe.oliveiracrz@outlook.com">Contato</a>
+        </li>
+        </li>
+        <li class="footer_links_item">
+            <a href="felipe.oliveiracrz@outlook.com">FeedBack</a>
+        </li>
+        <li class="footer_links_item">
+            <a href="https://developer.marvel.com/">API Marvel</a>
+        </li>
+    </ul>
+    <div class="footer__copyright">
+        © Copyright 2020. Todos os direitos reservados.
     </div>
+</div>
+
 </html>
